@@ -1,0 +1,243 @@
+/*main.css*/
+body{
+  background: rgb(155, 218, 255) 0%;
+  
+    font-family: 'Nanum Pen Script', cursive;
+    margin: 0;
+}
+
+.logo-size{
+    width: 276px;
+    height: 68px;
+}
+
+.search-from{
+    
+    background-color: white;
+    width: 586px;
+    height: 30px;
+    vertical-align: middle;
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    
+  }
+
+
+
+.input-text{
+    width: 516px;
+    height: 30px;
+    background: none;
+    border: 0px;
+    resize: none;
+}
+
+table{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+#rectangle{
+  width:100%;
+  height:30px;
+  /* background-color: rgb(182, 234, 255); */
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,84,166,1) 0%, rgba(132,189,201,1) 90% );
+  border: 1px solid ;
+}
+
+.ad{
+  
+  width: 600px;
+  height: 250px;
+}
+.login_btn{
+
+  width: 330px;
+  height: 120px;
+}
+.share_btn{
+  
+  width: 330px;
+  height: 120px;
+}
+
+
+
+.login_sighUp{
+
+  
+  font-size: 23px;
+  letter-spacing: 2px;
+}
+#ad_2{
+  background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+  color: white;
+  font-size: 50px;
+}
+.menus td{
+  border-top-left-radius:1em;
+  border-top-right-radius:1em;
+  border-bottom-right-radius:1em;
+  border-bottom-left-radius:1em;
+
+
+
+
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,84,166,1) 0%, rgba(132,189,201,1) 90% );
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+  border: 2px solid;
+}
+
+.menu{
+  width: 200px;
+  height: 200px;
+}
+
+.w-btn-gra1 {
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+    color: white;
+    padding: px;
+   
+    
+}
+
+
+body{
+  /* background-color: rgb(255, 235, 182); */
+  background-image: url(193206.gif),url(6H9.gif) ;
+  background-size: 100% 450px, 100% 360px;
+  background-position: top,bottom;
+  object-fit: contain,scale-down;
+  /* width: 10px;
+  height: 10px; */
+  background-repeat: repeat-x,no-repeat;
+
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.search-from{
+  margin: 30px;
+  background-color: white;
+  width: 700px;
+  height: 30px;
+  vertical-align: middle;
+  display: flex;
+}
+
+.input-text{
+  width: 500px;
+  height: 18px;
+  background: none;
+  border: 0px;
+  resize: none;
+ 
+  
+
+
+}
+/* 네비 */
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  color: rgb(102, 132, 151);
+}
+
+.header{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.header .section{
+  width: 1720px;
+  border: 1px solid;
+  height:100px;
+  margin: 0 auto;
+}
+
+.header .logo{
+  float: left;
+  width: 6%;
+  font-size: 55px;
+  height:100%;
+  margin-left: 30px;
+  line-height: 2.15;
+}
+
+.header .nav{
+  float: left;
+  width:83%;
+  height:100%;
+  text-align: center;
+}
+
+.header .nav ul{
+  display:inline-block;
+  line-height: 3;
+  height:100%;
+}
+
+.header .nav ul li{
+  float: left;
+  font-size: 25px;
+  margin:0 30px;
+}
+
+.header .profile{
+  float: right;
+  height:100%;
+}
+
+.header .profile ul li{
+  float: left;
+  font-size: 17px;
+  line-height: 6.7;
+  margin: 0 25px 0 0;
+}
+
+
+
+/* 슬라이더 */
+
+
+.swiper-container{
+  /* width: 100vw;
+  height: 100vh;  */
+ 
+  overflow: hidden;
+  position: relative;
+  border: 2px solid rgb(90, 116, 133);
+  /* // 이미지 보여지는 뷰 부분만큼 px조절 */
+  width: 690px;  
+  height: 590px;
+  box-sizing: border-box;
+  margin: 0 auto;
+ 
+
+      }
+
+  
+  .swiper-wrapper{
+    width:auto;
+    height:100%;
+    display:flex;
+    flex-wrap:nowrap;
+  }    
+
+   
+
+
+  .image-box > div {
+    margin: 0px -1px 0px 0px;
+}
+
+.style1
+{
+  border: 0;
+  height: 1px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,84,166,1) 0%, rgba(132,189,201,1) 90% );
+  }
+

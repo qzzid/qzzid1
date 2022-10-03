@@ -1,0 +1,204 @@
+<!--main.html-->
+<!doctype html>
+<html>
+<head>
+    <title>Main page</title>
+    <meta charset="utf-8">
+    
+    <!-- 슬라이더 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
+    <!-- 슬라이더 -->
+    <!-- 달력 -->
+    <link rel="stylesheet" href="date.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script defer  src="date1.js"></script>
+  <!-- 달력 -->
+  <!-- 검색 -->
+ 
+  
+    <link rel="stylesheet" href="index1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script  defer  src="colors.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  <br><br>
+<!-- 네비 -->
+<div class="header">
+  <div class="section">
+    <div class="logo">
+      <a href="index1.html">QZZID</a>
+    </div>
+    <div class="nav" >
+      <ul>
+      
+        <li><a href="index1.html">Home </a></li>
+        <li><a href="search.html">Board </a></li>
+        <li><a href="write.html">Write </a></li>
+        <li><a href="Reference.html">Reference</a></li>
+     
+      </ul>
+    </div>
+    <div class="profile">
+      <ul>
+        <li><a  a href="#" onclick="window.open('login.html', 'window_name', 'width=450, height=800, location=nos, status=no, scrollbars=yes,' );" >로그인</a></li>
+        <li><a href="join.html">회원가입</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- 네비 -->
+
+
+
+    <br><br><br>
+    <div class="contents">
+      <table> <br><br><br>
+      <th>
+    
+      </th>
+
+    
+      <th>
+        <form>
+          
+          <fieldset class="search-from" >
+                <input class="input-text" placeholder="검색해주세요." type="text">       
+                                           
+                  <button id="search-btn" type="submit" style="background:none; border:10px;">     
+                   
+                    <a button onclick="window.open('search.html', 'window_name', 'width=500, height=750, location=no, status=no, scrollbars=yes');" ><img src="free-icon-search-122932.png" width="5%"  style="float: right;"  class="submit-btn"></a></button>                        
+                    
+                
+                  
+                    
+                    <td style="float:left; display:scroll; position:fixed;bottom:20px;right:20px;" href="#" title="Top" ><input type="button" value="night" onclick="nightDayHandler(this);"  class="w-btn w-btn-gra1" >   </td>
+                  
+          </fieldset>
+         
+        </form>
+      </th>
+      </table>
+      <br><br><br>
+    
+
+    </div><br>
+   <br>
+    <div id="rectangle"></div><br><br><br><br>
+    <center>
+    
+      <br><br>
+      <tr>
+        <td colspan="2"><span id="ad_2">Write</span></td>
+        <tr><br><br><br>
+          
+      <tr>
+
+      
+          <from action="main.php" method="post">
+          <table class="content-from">
+              <tr>
+                  <td colspan="3"></a></td>
+              </tr>
+              <tr>
+                  <td><input type="text" name="title" placeholder="제목" class="title-box"></td>
+                  
+                  
+                  
+
+                  <td><button onclick="alert('저장했습니다.');"id="save-btn" class="save-btn-box"><strong>저장</strong></button></td>
+                  
+                  
+                
+                  
+              </tr>
+              
+              <tr>
+                  <td colspan="3">
+                      <br><textarea name="content" cols="105" rows="20" placeholder="내용" class="content-box"></textarea>
+                  </td>
+              </tr>
+          </table>
+          </form>
+          </center>
+</td>
+
+    <br><br><br><br><br>
+
+  
+  <br><br><br><br>
+  <br>
+  <hr class="style1"><br>
+
+
+    <table  cellspacing="45" cellpadding="10" class="menus">
+        <br><br><br> 
+        <br><br><br>
+        <tr>
+        <td><a href="b3ccd57b054a73af1a0d281265b54ec8.png"></a><a href="index1.html"><img src="b3ccd57b054a73af1a0d281265b54ec8.png" class="menu"><br>Home</td>
+        <td><a href="white_board_education_business_presentation_icon_175916.png"></a><a href="search.html"><img src="white_board_education_business_presentation_icon_175916.png" class="menu"><br>Board</td>
+        <td><a href="121212.png"></a><a href="write.html"><img src="121212.png" class="menu"><br>Write</td>
+          <tr></tr>
+
+       
+
+          <td><a href="623afb7b27d4946aceae2fae.png"></a><a href="https://www.naver.com"><img src="623afb7b27d4946aceae2fae.png" class="menu"><br></td>
+            <td><a href="google-logo-9808.png"></a><a href="https://www.google.com"><img src="google-logo-9808.png" class="menu"><br></td>
+              <td><a href="Github-PNG-images--16png.png"></a><a href="https://github.com/"><img src="Github-PNG-images--16png.png" class="menu"><br></td>
+        
+      </tr>
+    </table>
+  </div>
+<br><br><br>
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://qzzid-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+<div id="rectangle"></div>
+<br><br><br><br>
+<!-- 광고 -->
+<div style="margin-left:auto; margin-right: auto; text-align: center;">
+  <a href="https://care.sc.or.kr/care71pc.html?utm_source=naver_timeboard_pc&utm_medium=display&utm_campaign=saveone&utm_content=1500x270_saveone_bracelet_black_22093013&utm_term=1500x270_saveone_bracelet_black_22093013" height="5" width="10" target="_blank">
+  <img src="https://ssl.pstatic.net/melona/libs/1409/1409422/8c5df185cd21008113db_20220929152807072.jpg" width="1800" height="270" align="center  border="0" alt="[광고]재난 속 아이들을 구하는 save one 긴급구호 팔찌 지금 긴급구호 활동가들과 함께 착용해 주세요 save one 팔찌 받으러 가기" border="0" style="width:750px;height:135px;"></a>
+</div>
+<!-- 광고 -->
+
+<hr>
+
+<div style="text-align: center" > 
+<h2>tex Copyright © QZZID All right reserved.</h2>  <h3>방문해주셔서 감사합니다.</h3>
+
+</div>
+
+ 
+<!-- 위로가기 -->
+<a style="display:scroll;position:fixed;bottom:50px;right:15px;" href="#" title="Top">
+  <img src="https://tistory2.daumcdn.net/tistory/3401816/skin/images/up-arrow.png"  border="0">
+  </a>
+<!-- 위로가기끝 -->
+
+
+
+
+
+
+</body>
+</html>
